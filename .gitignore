@@ -164,3 +164,6 @@ tokens.txt
 
 # Strava activity data
 /data
+
+# MacOS
+.DS_Store

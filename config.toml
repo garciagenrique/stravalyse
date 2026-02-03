@@ -6,17 +6,17 @@ activity_data_file = 'data/strava_activities.json'
 geo_data_file = 'data/strava_activities.geojson'
 
 [data]
-reverse_geocoding = true
+reverse_geocoding = false #true
 update_existing_activities = true
 
 [[data.description_tags]]
-tag_name = 'Skis:'
-column_name = 'ski_type'
-activity_types = ["AlpineSki", "BackcountrySki", "NordicSki"]
+tag_name = "Type:"
+column_name = "activity_subtype"
+activity_types = ["BackcountrySki", "RockClimbing", "Kitesurf"]
 
-[mapbox]
-tileset_name = 'YOUR_NAME.StravaGeoData'
-tileset_zoom_level = 16
+# [mapbox]
+# tileset_name = 'YOUR_NAME.StravaGeoData'
+# tileset_zoom_level = 16
 
 [plots]
 plot_colour_palette = "Dark2"
