@@ -14,7 +14,7 @@ dependencies = [
     "geopy>=2.4",
     "geopandas>=1.0",
     "matplotlib>=3.9",
-    "pandas>=2.2",
+    "pandas<3",
     "polyline>=2.0",
     "python-dotenv>=1.0",
     "seaborn>=0.13",
